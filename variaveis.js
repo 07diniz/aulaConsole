@@ -16,7 +16,7 @@ const nome3 = 'dos'
 
 const nome4 = 'Santos'
 
-let idade = 18
+let idade = 19
 
 let peso = 52.2
 
@@ -24,4 +24,11 @@ let altura = 1.72
 console.log(nome1, nome2, nome3, nome4, idade, peso, altura)
 let imc;
 imc = peso / (altura * altura)
- console.log(imc)
+ console.log(imc) 
+
+ let anoatual = 2023
+
+ console.log(anoatual)
+
+ let resultado = anoatual - idade
+ console.log(resultado)
